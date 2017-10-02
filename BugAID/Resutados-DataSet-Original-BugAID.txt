@@ -1,0 +1,219 @@
+1         {RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 4, Instances = 655, Complexity = 1, BasicChanges = 1, ProjectCount = 67
+2         {RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 7, Instances = 160, Complexity = 2, BasicChanges = 1, ProjectCount = 46
+3         {RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 12, Instances = 147, Complexity = 2, BasicChanges = 1, ProjectCount = 46
+4         {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 0, Instances = 125, Complexity = 1, BasicChanges = 1, ProjectCount = 35
+5         {RESERVED:CONDITION:INSERTED:global:sheq:1.0}: ClusterID = 1, Instances = 114, Complexity = 1, BasicChanges = 1, ProjectCount = 42
+6         {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 13, Instances = 113, Complexity = 2, BasicChanges = 2, ProjectCount = 39
+7         {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 36, Instances = 85, Complexity = 2, BasicChanges = 2, ProjectCount = 36
+8         {RESERVED:METHOD_CALL:INSERTED:global:this:1.0}: ClusterID = 91, Instances = 83, Complexity = 1, BasicChanges = 1, ProjectCount = 29
+9         {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 45, Instances = 76, Complexity = 1, BasicChanges = 2, ProjectCount = 36
+10        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 25, Instances = 76, Complexity = 2, BasicChanges = 2, ProjectCount = 25
+11        {FIELD:ASSIGNMENT_LHS:INSERTED:global:prototype:1.0}: ClusterID = 73, Instances = 67, Complexity = 3, BasicChanges = 1, ProjectCount = 24
+12        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 9, Instances = 66, Complexity = 3, BasicChanges = 2, ProjectCount = 29
+13        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0}: ClusterID = 6, Instances = 61, Complexity = 1, BasicChanges = 1, ProjectCount = 31
+14        {METHOD:METHOD_CALL:INSERTED:global:replace:1.0}: ClusterID = 10, Instances = 52, Complexity = 1, BasicChanges = 1, ProjectCount = 21
+15        {RESERVED:CONDITION:INSERTED:global:eq:1.0}: ClusterID = 76, Instances = 49, Complexity = 2, BasicChanges = 1, ProjectCount = 19
+16        {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0}: ClusterID = 17, Instances = 48, Complexity = 2, BasicChanges = 1, ProjectCount = 23
+17        {RESERVED:STATEMENT:INSERTED:global:try:1.0 RESERVED:EXCEPTION_CATCH:INSERTED:global:error:1.0}: ClusterID = 63, Instances = 44, Complexity = 3, BasicChanges = 2, ProjectCount = 23
+18        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 39, Instances = 44, Complexity = 1, BasicChanges = 2, ProjectCount = 20
+19        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:true:1.0}: ClusterID = 49, Instances = 40, Complexity = 1, BasicChanges = 1, ProjectCount = 24
+20        {RESERVED:ARGUMENT:REMOVED:global:this:1.0}: ClusterID = 8, Instances = 40, Complexity = 1, BasicChanges = 1, ProjectCount = 22
+21        {RESERVED:CONDITION:REMOVED:global:sheq:1.0}: ClusterID = 19, Instances = 39, Complexity = 1, BasicChanges = 1, ProjectCount = 18
+22        {RESERVED:CONDITION:REMOVED:global:falsey:2.0}: ClusterID = 72, Instances = 34, Complexity = 2, BasicChanges = 1, ProjectCount = 18
+23        {RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 74, Instances = 33, Complexity = 3, BasicChanges = 2, ProjectCount = 21
+24        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:2.0}: ClusterID = 16, Instances = 32, Complexity = 2, BasicChanges = 1, ProjectCount = 17
+25        {RESERVED:ARGUMENT:INSERTED:global:this:1.0}: ClusterID = 80, Instances = 31, Complexity = 1, BasicChanges = 1, ProjectCount = 17
+26        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 115, Instances = 30, Complexity = 1, BasicChanges = 2, ProjectCount = 13
+27        {RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 90, Instances = 30, Complexity = 1, BasicChanges = 2, ProjectCount = 13
+28        {RESERVED:METHOD_CALL:REMOVED:global:this:1.0}: ClusterID = 56, Instances = 28, Complexity = 1, BasicChanges = 1, ProjectCount = 16
+29        {RESERVED:CONDITION:INSERTED:global:undefined:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 23, Instances = 28, Complexity = 1, BasicChanges = 2, ProjectCount = 16
+30        {RESERVED:ARGUMENT:INSERTED:global:true:1.0}: ClusterID = 41, Instances = 25, Complexity = 1, BasicChanges = 1, ProjectCount = 17
+31        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0}: ClusterID = 43, Instances = 24, Complexity = 2, BasicChanges = 2, ProjectCount = 15
+32        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:null:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 30, Instances = 24, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+33        {RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 118, Instances = 23, Complexity = 2, BasicChanges = 2, ProjectCount = 18
+34        {FIELD:CONDITION:INSERTED:global:length:1.0}: ClusterID = 96, Instances = 23, Complexity = 1, BasicChanges = 1, ProjectCount = 15
+35        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:null:1.0}: ClusterID = 93, Instances = 23, Complexity = 1, BasicChanges = 1, ProjectCount = 11
+36        {RESERVED:ARGUMENT:INSERTED:global:null:1.0}: ClusterID = 81, Instances = 23, Complexity = 1, BasicChanges = 1, ProjectCount = 15
+37        {RESERVED:CONDITION:INSERTED:global:falsey:3.0}: ClusterID = 58, Instances = 23, Complexity = 3, BasicChanges = 1, ProjectCount = 18
+38        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:REMOVED:global:eq:1.0}: ClusterID = 107, Instances = 22, Complexity = 1, BasicChanges = 2, ProjectCount = 16
+39        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:false:1.0}: ClusterID = 42, Instances = 22, Complexity = 1, BasicChanges = 1, ProjectCount = 16
+40        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 126, Instances = 20, Complexity = 3, BasicChanges = 2, ProjectCount = 11
+41        {RESERVED:CONDITION:INSERTED:global:eq:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 98, Instances = 20, Complexity = 1, BasicChanges = 2, ProjectCount = 12
+42        {RESERVED:ARGUMENT:REMOVED:global:error:1.0}: ClusterID = 59, Instances = 20, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+43        {RESERVED:CONDITION:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 54, Instances = 20, Complexity = 1, BasicChanges = 2, ProjectCount = 16
+44        {RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 138, Instances = 19, Complexity = 2, BasicChanges = 1, ProjectCount = 6
+45        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 84, Instances = 19, Complexity = 2, BasicChanges = 2, ProjectCount = 12
+46        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:true:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0}: ClusterID = 196, Instances = 18, Complexity = 1, BasicChanges = 2, ProjectCount = 10
+47        {RESERVED:ARGUMENT:INSERTED:global:error:1.0}: ClusterID = 133, Instances = 18, Complexity = 1, BasicChanges = 1, ProjectCount = 15
+48        {RESERVED:ASSIGNMENT_LHS:REMOVED:global:this:1.0}: ClusterID = 67, Instances = 18, Complexity = 1, BasicChanges = 1, ProjectCount = 12
+49        {RESERVED:METHOD_CALL:INSERTED:global:error:1.0}: ClusterID = 11, Instances = 18, Complexity = 1, BasicChanges = 1, ProjectCount = 9
+50        {RESERVED:CONDITION:INSERTED:global:sheq:2.0}: ClusterID = 33, Instances = 17, Complexity = 3, BasicChanges = 1, ProjectCount = 11
+51        {RESERVED:STATEMENT:REMOVED:global:return:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 94, Instances = 16, Complexity = 3, BasicChanges = 3, ProjectCount = 10
+52        {RESERVED:STATEMENT:UPDATED:global:return:1.0 METHOD:METHOD_CALL:INSERTED:global:replace:1.0}: ClusterID = 75, Instances = 16, Complexity = 1, BasicChanges = 2, ProjectCount = 11
+53        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 46, Instances = 16, Complexity = 3, BasicChanges = 3, ProjectCount = 13
+54        {METHOD:METHOD_CALL:INSERTED:global:filter:1.0}: ClusterID = 24, Instances = 16, Complexity = 3, BasicChanges = 1, ProjectCount = 11
+55        {RESERVED:STATEMENT:UPDATED:global:var:1.0 METHOD:METHOD_CALL:INSERTED:global:replace:1.0}: ClusterID = 155, Instances = 15, Complexity = 1, BasicChanges = 2, ProjectCount = 11
+56        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 117, Instances = 15, Complexity = 3, BasicChanges = 3, ProjectCount = 11
+57        {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 35, Instances = 15, Complexity = 2, BasicChanges = 2, ProjectCount = 11
+58        {RESERVED:CONDITION:INSERTED:global:eq:1.0 RESERVED:CONDITION:REMOVED:global:sheq:1.0}: ClusterID = 127, Instances = 14, Complexity = 1, BasicChanges = 2, ProjectCount = 9
+59        {METHOD:METHOD_CALL:REMOVED:global:replace:1.0}: ClusterID = 92, Instances = 14, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+60        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 82, Instances = 14, Complexity = 3, BasicChanges = 3, ProjectCount = 12
+61        {METHOD:METHOD_CALL:INSERTED:global:bind:1.0}: ClusterID = 47, Instances = 14, Complexity = 2, BasicChanges = 1, ProjectCount = 11
+62        {METHOD:METHOD_CALL:REMOVED:global:forEach:1.0 METHOD:METHOD_CALL:INSERTED:global:forEach:1.0}: ClusterID = 194, Instances = 13, Complexity = 2, BasicChanges = 2, ProjectCount = 2
+63        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0}: ClusterID = 184, Instances = 13, Complexity = 2, BasicChanges = 2, ProjectCount = 7
+64        {FIELD:CONDITION:INSERTED:global:length:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 170, Instances = 13, Complexity = 1, BasicChanges = 2, ProjectCount = 11
+65        {RESERVED:CONDITION:REMOVED:global:eq:1.0}: ClusterID = 145, Instances = 13, Complexity = 2, BasicChanges = 1, ProjectCount = 9
+66        {RESERVED:METHOD_CALL:REMOVED:global:error:1.0}: ClusterID = 104, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+67        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:null:1.0}: ClusterID = 99, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+68        {RESERVED:ARGUMENT:REMOVED:global:true:1.0}: ClusterID = 78, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+69        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 64, Instances = 13, Complexity = 1, BasicChanges = 2, ProjectCount = 10
+70        {RESERVED:ARGUMENT:REMOVED:global:null:1.0}: ClusterID = 57, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+71        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:false:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 55, Instances = 13, Complexity = 1, BasicChanges = 2, ProjectCount = 9
+72        {RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 34, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+73        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:this:1.0}: ClusterID = 15, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 10
+74        {RESERVED:METHOD_CALL:INSERTED:global:callback:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 2, Instances = 13, Complexity = 2, BasicChanges = 3, ProjectCount = 5
+75        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:error:1.0}: ClusterID = 179, Instances = 12, Complexity = 1, BasicChanges = 2, ProjectCount = 11
+76        {METHOD:METHOD_CALL:INSERTED:global:toLowerCase:1.0}: ClusterID = 152, Instances = 12, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+77        {RESERVED:STATEMENT:REMOVED:global:return:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 114, Instances = 12, Complexity = 2, BasicChanges = 2, ProjectCount = 9
+78        {RESERVED:CONDITION:INSERTED:global:false:1.0 RESERVED:CONDITION:INSERTED:global:sheq:1.0}: ClusterID = 201, Instances = 11, Complexity = 1, BasicChanges = 2, ProjectCount = 9
+79        {RESERVED:ARGUMENT:INSERTED:global:false:1.0}: ClusterID = 123, Instances = 11, Complexity = 2, BasicChanges = 1, ProjectCount = 6
+80        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:INSERTED:global:var:1.0}: ClusterID = 113, Instances = 11, Complexity = 3, BasicChanges = 2, ProjectCount = 9
+81        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:REMOVED:global:sheq:1.0}: ClusterID = 111, Instances = 11, Complexity = 1, BasicChanges = 2, ProjectCount = 10
+82        {METHOD:METHOD_CALL:INSERTED:global:indexOf:1.0}: ClusterID = 103, Instances = 11, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+83        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 87, Instances = 11, Complexity = 2, BasicChanges = 2, ProjectCount = 9
+84        {RESERVED:CONDITION:REMOVED:global:typeof:1.0 RESERVED:CONDITION:REMOVED:global:sheq:1.0}: ClusterID = 66, Instances = 11, Complexity = 1, BasicChanges = 2, ProjectCount = 11
+85        {METHOD:METHOD_CALL:INSERTED:global:push:1.0}: ClusterID = 60, Instances = 11, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+86        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:INSERTED:global:new:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 21, Instances = 11, Complexity = 2, BasicChanges = 3, ProjectCount = 8
+87        {RESERVED:CONDITION:REMOVED:global:typeof:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 178, Instances = 10, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+88        {METHOD:METHOD_CALL:INSERTED:global:slice:1.0}: ClusterID = 148, Instances = 10, Complexity = 1, BasicChanges = 1, ProjectCount = 8
+89        {RESERVED:METHOD_CALL:INSERTED:global:this:2.0}: ClusterID = 139, Instances = 10, Complexity = 2, BasicChanges = 1, ProjectCount = 7
+90        {RESERVED:ARGUMENT:INSERTED:global:null:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 69, Instances = 10, Complexity = 1, BasicChanges = 2, ProjectCount = 8
+91        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:this:1.0}: ClusterID = 61, Instances = 10, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+92        {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 27, Instances = 10, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+93        {RESERVED:ARGUMENT:INSERTED:global:callback:1.0}: ClusterID = 3, Instances = 10, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+94        {RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 183, Instances = 9, Complexity = 2, BasicChanges = 2, ProjectCount = 7
+95        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 173, Instances = 9, Complexity = 2, BasicChanges = 3, ProjectCount = 8
+96        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 METHOD:METHOD_CALL:INSERTED:global:hasOwnProperty:1.0}: ClusterID = 171, Instances = 9, Complexity = 1, BasicChanges = 2, ProjectCount = 7
+97        {RESERVED:CONDITION:INSERTED:global:sheq:2.0 RESERVED:CONDITION:INSERTED:global:typeof:2.0}: ClusterID = 161, Instances = 9, Complexity = 1, BasicChanges = 2, ProjectCount = 8
+98        {FIELD:ASSIGNMENT_LHS:REMOVED:global:prototype:1.0}: ClusterID = 154, Instances = 9, Complexity = 4, BasicChanges = 1, ProjectCount = 9
+99        {RESERVED:ARGUMENT:INSERTED:global:this:1.0 METHOD:METHOD_CALL:INSERTED:global:bind:1.0}: ClusterID = 140, Instances = 9, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+100       {METHOD:METHOD_CALL:INSERTED:global:forEach:1.0}: ClusterID = 106, Instances = 9, Complexity = 5, BasicChanges = 1, ProjectCount = 8
+101       {FIELD:ASSIGNMENT_LHS:INSERTED:global:global:1.0}: ClusterID = 68, Instances = 9, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+102       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 52, Instances = 9, Complexity = 2, BasicChanges = 2, ProjectCount = 8
+103       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:null:2.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 51, Instances = 9, Complexity = 1, BasicChanges = 2, ProjectCount = 2
+104       {METHOD:METHOD_CALL:REMOVED:global:stringify:1.0 CLASS:METHOD_CALL:REMOVED:global:JSON:1.0}: ClusterID = 38, Instances = 9, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+105       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:new:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 28, Instances = 9, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+106       {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:REMOVED:global:var:1.0}: ClusterID = 22, Instances = 9, Complexity = 4, BasicChanges = 3, ProjectCount = 7
+107       {RESERVED:CONDITION:REMOVED:global:sheq:2.0}: ClusterID = 205, Instances = 8, Complexity = 2, BasicChanges = 1, ProjectCount = 8
+108       {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:null:1.0}: ClusterID = 190, Instances = 8, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+109       {METHOD:METHOD_CALL:INSERTED:global:trim:1.0}: ClusterID = 181, Instances = 8, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+110       {RESERVED:CONDITION:INSERTED:global:falsey:4.0}: ClusterID = 175, Instances = 8, Complexity = 1, BasicChanges = 1, ProjectCount = 8
+111       {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0}: ClusterID = 166, Instances = 8, Complexity = 3, BasicChanges = 4, ProjectCount = 8
+112       {RESERVED:STATEMENT:INSERTED:global:new:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 150, Instances = 8, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+113       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:callback:1.0}: ClusterID = 149, Instances = 8, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+114       {RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:STATEMENT:REMOVED:global:var:1.0}: ClusterID = 134, Instances = 8, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+115       {METHOD:METHOD_CALL:INSERTED:global:toString:1.0}: ClusterID = 122, Instances = 8, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+116       {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:this:1.0}: ClusterID = 116, Instances = 8, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+117       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 109, Instances = 8, Complexity = 1, BasicChanges = 3, ProjectCount = 7
+118       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:null:1.0}: ClusterID = 101, Instances = 8, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+119       {RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:STATEMENT:UPDATED:global:var:2.0}: ClusterID = 100, Instances = 8, Complexity = 2, BasicChanges = 2, ProjectCount = 5
+120       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:2.0}: ClusterID = 50, Instances = 8, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+121       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 206, Instances = 7, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+122       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 202, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 5
+123       {RESERVED:STATEMENT:INSERTED:global:return:2.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 157, Instances = 7, Complexity = 4, BasicChanges = 2, ProjectCount = 7
+124       {RESERVED:METHOD_CALL:INSERTED:global:this:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 156, Instances = 7, Complexity = 2, BasicChanges = 2, ProjectCount = 7
+125       {RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:CONDITION:REMOVED:global:falsey:2.0}: ClusterID = 153, Instances = 7, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+126       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:2.0}: ClusterID = 142, Instances = 7, Complexity = 2, BasicChanges = 2, ProjectCount = 5
+127       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:UPDATED:global:falsey:1.0}: ClusterID = 137, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+128       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 129, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 7
+129       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:true:1.0}: ClusterID = 121, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+130       {RESERVED:ARGUMENT:INSERTED:global:true:2.0}: ClusterID = 120, Instances = 7, Complexity = 2, BasicChanges = 1, ProjectCount = 5
+131       {RESERVED:STATEMENT:UPDATED:global:var:1.0 METHOD:METHOD_CALL:INSERTED:global:toLowerCase:1.0}: ClusterID = 105, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+132       {RESERVED:CONDITION:INSERTED:global:this:1.0}: ClusterID = 88, Instances = 7, Complexity = 1, BasicChanges = 1, ProjectCount = 7
+133       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:true:2.0}: ClusterID = 53, Instances = 7, Complexity = 2, BasicChanges = 1, ProjectCount = 6
+134       {RESERVED:ARGUMENT:INSERTED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 40, Instances = 7, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+135       {METHOD:METHOD_CALL:INSERTED:global:stringify:1.0 CLASS:METHOD_CALL:INSERTED:global:JSON:1.0}: ClusterID = 18, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+136       {METHOD:METHOD_CALL:REMOVED:global:replace:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 217, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+137       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 214, Instances = 6, Complexity = 1, BasicChanges = 3, ProjectCount = 3
+138       {RESERVED:CONDITION:INSERTED:global:eq:1.0 RESERVED:CONDITION:REMOVED:global:eq:1.0}: ClusterID = 211, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+139       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:METHOD_CALL:INSERTED:global:error:1.0}: ClusterID = 207, Instances = 6, Complexity = 2, BasicChanges = 2, ProjectCount = 4
+140       {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 197, Instances = 6, Complexity = 2, BasicChanges = 3, ProjectCount = 5
+141       {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 195, Instances = 6, Complexity = 4, BasicChanges = 3, ProjectCount = 5
+142       {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 193, Instances = 6, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+143       {METHOD:METHOD_CALL:INSERTED:global:match:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 192, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+144       {METHOD:METHOD_CALL:INSERTED:global:call:1.0 RESERVED:METHOD_CALL:UPDATED:global:delete:1.0}: ClusterID = 186, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 1
+145       {RESERVED:CONDITION:REMOVED:global:typeof:1.0 RESERVED:CONDITION:REMOVED:global:undefined:1.0}: ClusterID = 177, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+146       {METHOD:METHOD_CALL:INSERTED:global:concat:1.0}: ClusterID = 176, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+147       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:this:1.0}: ClusterID = 172, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+148       {RESERVED:METHOD_CALL:INSERTED:global:callback:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:ARGUMENT:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 168, Instances = 6, Complexity = 2, BasicChanges = 4, ProjectCount = 4
+149       {RESERVED:CONDITION:REMOVED:global:falsey:2.0}: ClusterID = 165, Instances = 6, Complexity = 6, BasicChanges = 1, ProjectCount = 6
+150       {RESERVED:PARAMETER_DECLARATION:REMOVED:global:callback:1.0}: ClusterID = 162, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+151       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:REMOVED:global:eq:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 159, Instances = 6, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+152       {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:this:1.0}: ClusterID = 146, Instances = 6, Complexity = 5, BasicChanges = 2, ProjectCount = 5
+153       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:new:1.0}: ClusterID = 144, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+154       {RESERVED:CONDITION:INSERTED:global:eq:2.0}: ClusterID = 143, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 2
+155       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0}: ClusterID = 141, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+156       {RESERVED:EXPRESSION:INSERTED:global:this:1.0}: ClusterID = 136, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+157       {RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 135, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 5
+158       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:null:2.0}: ClusterID = 132, Instances = 6, Complexity = 2, BasicChanges = 1, ProjectCount = 4
+159       {METHOD:METHOD_CALL:INSERTED:global:map:1.0}: ClusterID = 125, Instances = 6, Complexity = 3, BasicChanges = 1, ProjectCount = 6
+160       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 124, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+161       {RESERVED:CONDITION:REMOVED:global:falsey:2.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 102, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 5
+162       {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 85, Instances = 6, Complexity = 2, BasicChanges = 3, ProjectCount = 5
+163       {METHOD:METHOD_CALL:INSERTED:global:String:1.0}: ClusterID = 83, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+164       {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 77, Instances = 6, Complexity = 3, BasicChanges = 3, ProjectCount = 5
+165       {RESERVED:ARGUMENT:INSERTED:global:null:2.0}: ClusterID = 65, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+166       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:null:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 62, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 1
+167       {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 48, Instances = 6, Complexity = 5, BasicChanges = 3, ProjectCount = 6
+168       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:REMOVED:global:var:1.0}: ClusterID = 44, Instances = 6, Complexity = 3, BasicChanges = 2, ProjectCount = 6
+169       {METHOD:METHOD_CALL:INSERTED:global:replace:2.0}: ClusterID = 32, Instances = 6, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+170       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 METHOD:METHOD_CALL:INSERTED:global:charAt:1.0}: ClusterID = 14, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 3
+171       {RESERVED:METHOD_CALL:INSERTED:global:callback:1.0}: ClusterID = 218, Instances = 5, Complexity = 2, BasicChanges = 1, ProjectCount = 3
+172       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 216, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 3
+173       {RESERVED:CONDITION:INSERTED:global:false:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 215, Instances = 5, Complexity = 1, BasicChanges = 3, ProjectCount = 2
+174       {RESERVED:STATEMENT:INSERTED:global:var:2.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 213, Instances = 5, Complexity = 5, BasicChanges = 2, ProjectCount = 5
+175       {METHOD:METHOD_CALL:INSERTED:global:split:1.0}: ClusterID = 212, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+176       {RESERVED:ARGUMENT:INSERTED:global:error:1.0 RESERVED:STATEMENT:INSERTED:global:try:1.0 RESERVED:EXCEPTION_CATCH:INSERTED:global:error:1.0}: ClusterID = 210, Instances = 5, Complexity = 3, BasicChanges = 3, ProjectCount = 5
+177       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 209, Instances = 5, Complexity = 2, BasicChanges = 3, ProjectCount = 5
+178       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 208, Instances = 5, Complexity = 3, BasicChanges = 4, ProjectCount = 3
+179       {METHOD:METHOD_CALL:INSERTED:global:sort:1.0}: ClusterID = 204, Instances = 5, Complexity = 3, BasicChanges = 1, ProjectCount = 4
+180       {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 203, Instances = 5, Complexity = 2, BasicChanges = 3, ProjectCount = 5
+181       {RESERVED:ARGUMENT:INSERTED:global:typeof:1.0}: ClusterID = 200, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+182       {RESERVED:CONDITION:REMOVED:global:falsey:3.0}: ClusterID = 199, Instances = 5, Complexity = 3, BasicChanges = 1, ProjectCount = 4
+183       {RESERVED:CONDITION:INSERTED:global:sheq:2.0 RESERVED:CONDITION:INSERTED:global:typeof:2.0}: ClusterID = 198, Instances = 5, Complexity = 4, BasicChanges = 2, ProjectCount = 4
+184       {RESERVED:ARGUMENT:INSERTED:global:true:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 191, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 3
+185       {RESERVED:CONDITION:INSERTED:global:eq:1.0 METHOD:METHOD_CALL:INSERTED:global:indexOf:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 189, Instances = 5, Complexity = 2, BasicChanges = 3, ProjectCount = 1
+186       {RESERVED:ARGUMENT:INSERTED:global:null:1.0}: ClusterID = 188, Instances = 5, Complexity = 5, BasicChanges = 1, ProjectCount = 5
+187       {RESERVED:METHOD_CALL:INSERTED:global:this:1.0 FIELD:ASSIGNMENT_LHS:INSERTED:global:prototype:1.0}: ClusterID = 187, Instances = 5, Complexity = 4, BasicChanges = 2, ProjectCount = 5
+188       {RESERVED:STATEMENT:INSERTED:global:return:1.0}: ClusterID = 185, Instances = 5, Complexity = 2, BasicChanges = 1, ProjectCount = 5
+189       {RESERVED:CONDITION:INSERTED:global:false:2.0 RESERVED:CONDITION:INSERTED:global:sheq:2.0}: ClusterID = 182, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 4
+190       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 180, Instances = 5, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+191       {RESERVED:METHOD_CALL:INSERTED:global:this:1.0 RESERVED:STATEMENT:INSERTED:global:new:1.0}: ClusterID = 174, Instances = 5, Complexity = 4, BasicChanges = 2, ProjectCount = 2
+192       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:2.0}: ClusterID = 169, Instances = 5, Complexity = 5, BasicChanges = 2, ProjectCount = 5
+193       {METHOD:METHOD_CALL:INSERTED:global:push:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 167, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 4
+194       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:CONDITION:INSERTED:global:this:1.0}: ClusterID = 164, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 5
+195       {RESERVED:CONDITION:INSERTED:global:false:1.0 RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 163, Instances = 5, Complexity = 1, BasicChanges = 3, ProjectCount = 4
+196       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:false:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 160, Instances = 5, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+197       {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:undefined:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 158, Instances = 5, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+198       {RESERVED:ARGUMENT:INSERTED:global:error:1.0}: ClusterID = 151, Instances = 5, Complexity = 5, BasicChanges = 1, ProjectCount = 4
+199       {RESERVED:CONDITION:INSERTED:global:eq:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 147, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 4
+200       {RESERVED:ARGUMENT:INSERTED:global:undefined:1.0}: ClusterID = 131, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+201       {RESERVED:CONDITION:INSERTED:global:sheq:1.0 METHOD:METHOD_CALL:INSERTED:global:indexOf:1.0}: ClusterID = 130, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+202       {METHOD:METHOD_CALL:REMOVED:global:bind:1.0}: ClusterID = 128, Instances = 5, Complexity = 4, BasicChanges = 1, ProjectCount = 4
+203       {RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 119, Instances = 5, Complexity = 1, BasicChanges = 3, ProjectCount = 5
+204       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:true:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 112, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 4
+205       {RESERVED:CONDITION:REMOVED:global:typeof:1.0 RESERVED:CONDITION:REMOVED:global:undefined:1.0 RESERVED:CONDITION:INSERTED:global:undefined:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 110, Instances = 5, Complexity = 1, BasicChanges = 4, ProjectCount = 3
+206       {RESERVED:STATEMENT:UPDATED:global:return:1.0 METHOD:METHOD_CALL:INSERTED:global:toLowerCase:1.0}: ClusterID = 108, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 3
+207       {RESERVED:CONDITION:INSERTED:global:falsey:4.0}: ClusterID = 97, Instances = 5, Complexity = 4, BasicChanges = 1, ProjectCount = 5
+208       {RESERVED:ASSIGNMENT_RHS:REMOVED:global:this:1.0 RESERVED:STATEMENT:REMOVED:global:var:1.0}: ClusterID = 95, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 5
+209       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:undefined:1.0}: ClusterID = 89, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+210       {RESERVED:CONDITION:REMOVED:global:typeof:1.0}: ClusterID = 86, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+211       {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 79, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 5
+212       {RESERVED:STATEMENT:REMOVED:global:return:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 71, Instances = 5, Complexity = 2, BasicChanges = 3, ProjectCount = 5
+213       {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:2.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 70, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 2
+214       {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 37, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 4
+215       {RESERVED:STATEMENT:INSERTED:global:var:1.0 METHOD:METHOD_CALL:INSERTED:global:replace:1.0}: ClusterID = 31, Instances = 5, Complexity = 2, BasicChanges = 2, ProjectCount = 5
+216       {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:2.0}: ClusterID = 29, Instances = 5, Complexity = 2, BasicChanges = 1, ProjectCount = 3
+217       {FIELD:EXPRESSION:INSERTED:global:length:1.0}: ClusterID = 26, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+218       {FIELD:ASSIGNMENT_RHS:INSERTED:global:prototype:1.0 FIELD:ASSIGNMENT_LHS:INSERTED:global:prototype:1.0}: ClusterID = 20, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 5
+219       {RESERVED:METHOD_CALL:INSERTED:global:error:2.0}: ClusterID = 5, Instances = 5, Complexity = 2, BasicChanges = 1, ProjectCount = 3
