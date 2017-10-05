@@ -45,12 +45,17 @@ res.dbdbs <- dbscan::hdbscan(x = db,  minPts = 5)
 
 
 
-
 # ====
 # Montando estrutura para comparação dos valores
 source("util/ShowResult.R")
 resultado_pilot_job_final <- showResult(dt)
 
+
+
+
+write.csv(x = resultado_pilot_job_final, file="resultado-dbscan.csv")
+
+str(resultado_pilot_job_final)
 
 # TODO: ainda não funciona bem o Tuning abaixo
 # ==== 

@@ -1,5 +1,7 @@
 showResult <- function (dt){
-  library(dplyr)
+  if(!require(dplyr)) install.packages("dplyr")
+    
+    library(dplyr)
   
   # Montando estrutura para comparação dos valores
   metadados <- c("ID", "ProjectID", "CommitURL", "BuggyCommitID", "BugFixingCommit", 
@@ -19,8 +21,24 @@ showResult <- function (dt){
   resultado_pilot_job_final <- resultado_pilot_job[resultado_pilot_job$Cluster != 0, ]
   
   
-  resultado_pilot_job_final <- resultado_pilot_job_final %>% group_by(Cluster, nome_coluna) %>% summarise(V1 = sum(Qtd))
+  resultado_pilot_job_final <- resultado_pilot_job_final %>% 
+    group_by(Cluster, nome_coluna) %>% 
+    summarise(V1 = sum(Qtd))
+  
   resultado_pilot_job_final <- resultado_pilot_job_final[order(-resultado_pilot_job_final$V1),]
   
-  return(resultado_pilot_job_final)
+  
+  resultado_aggregate <- aggregate(nome_coluna ~ Cluster, data = resultado_pilot_job_final, c)
+  
+  
+  resultado_select <- distinct(select(resultado_pilot_job_final, Cluster, V1))
+  
+  
+  resultado_final <- resultado_aggregate %>% inner_join(resultado_select)
+
+  
+  resultado_final$nome_coluna <- as.character(resultado_final$nome_coluna)
+  
+  
+  return(resultado_final)
 }
