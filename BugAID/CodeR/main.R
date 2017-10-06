@@ -1,5 +1,5 @@
 # Read CSV into R
-datasetBugId <- read.csv(file="E:/Mestrado/Experimentos/DataSet/dataset_bugid_original_with_header.csv", header=TRUE, sep=",")
+datasetBugId <- read.csv(file="E:/Mestrado/ExperimentsPapers/BugAID/DataSet/dataset_bugid_dinamyc.csv", header=TRUE, sep=",")
 
 
 data("multishapes", package = "factoextra")
@@ -18,6 +18,8 @@ datasetBugId$Qtd = 1;
 #Realizar um agrupamento 
 library(data.table)
 dt <- data.table(datasetBugId)
+
+
 result <- dt[, sum(Qtd), by = Cluster]
 result <- dt %>% group_by(Cluster, nome_coluna) %>% summarise(V1 = sum(Qtd))
 
@@ -28,6 +30,9 @@ result <- result[order(-V1)]
 # ====
 # Rodando o KMeans
 res.dbkm <- kmeans(x = db, centers=219)
+# Obter os clusters
+datasetBugId$Cluster <- res.dbkm$cluster
+datasetBugId$Qtd = 1;
 
 
 # ====
@@ -53,7 +58,7 @@ resultado_pilot_job_final <- showResult(dt)
 
 
 
-write.csv(x = resultado_pilot_job_final, file="resultado-dbscan.csv")
+write.csv(x = resultado_pilot_job_final, file="resultado-dbscan.tsv")
 
 str(resultado_pilot_job_final)
 

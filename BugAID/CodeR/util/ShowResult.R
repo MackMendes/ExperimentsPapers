@@ -1,7 +1,8 @@
 showResult <- function (dt){
   if(!require(dplyr)) install.packages("dplyr")
     
-    library(dplyr)
+  library(dplyr)
+  library(tidyr)
   
   # Montando estrutura para comparação dos valores
   metadados <- c("ID", "ProjectID", "CommitURL", "BuggyCommitID", "BugFixingCommit", 
