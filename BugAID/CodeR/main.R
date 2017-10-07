@@ -1,38 +1,45 @@
-# Read CSV into R
+# ====
+# Leitura de CSV
 datasetBugId <- read.csv(file="E:/Mestrado/ExperimentsPapers/BugAID/DataSet/dataset_bugid_dinamyc.csv", header=TRUE, sep=",")
 
-
-data("multishapes", package = "factoextra")
+# ====
+# Retirando os metadados do DataSet
 db <- datasetBugId[10:632]
 
 
-# ====
+# ============================================================
 # Rodando o DBScan
-library("dbscan")
-res.db <- dbscan::dbscan(db,  eps = 0.30, minPts = 5)
-
-# Obter os clusters
-datasetBugId$Cluster <- res.db$cluster
-datasetBugId$Qtd = 1;
-
-#Realizar um agrupamento 
-library(data.table)
-dt <- data.table(datasetBugId)
-
-
-result <- dt[, sum(Qtd), by = Cluster]
-result <- dt %>% group_by(Cluster, nome_coluna) %>% summarise(V1 = sum(Qtd))
-
-#Ordenar pela quantidade
-result <- result[order(-V1)]
-
+source("model/DbScanClustering.R")
+dt_dbScan <- dbScanClustering(db)
 
 # ====
-# Rodando o KMeans
-res.dbkm <- kmeans(x = db, centers=219)
-# Obter os clusters
-datasetBugId$Cluster <- res.dbkm$cluster
-datasetBugId$Qtd = 1;
+# Montando estrutura para comparação dos valores
+source("util/ShowResult.R")
+result_dbScan <- showResult(dt_dbScan)
+
+write.csv(x = result_dbScan, file="resultado-dbscan.tsv")
+
+
+
+
+
+
+# ============================================================
+# Rodando o K-Means
+source("model/KMeansClustering.R")
+dt_kMeans <- kMeansClustering(db)
+
+# ====
+# Montando estrutura para comparação dos valores
+source("util/ShowResult.R")
+result_kMeans <- showResult(dt_kMeans)
+
+write.csv(x = result_kMeans, file="resultado-kMeans.tsv")
+
+
+
+
+
 
 
 # ====
@@ -50,17 +57,7 @@ res.dbdbs <- dbscan::hdbscan(x = db,  minPts = 5)
 
 
 
-# ====
-# Montando estrutura para comparação dos valores
-source("util/ShowResult.R")
-resultado_pilot_job_final <- showResult(dt)
 
-
-
-
-write.csv(x = resultado_pilot_job_final, file="resultado-dbscan.tsv")
-
-str(resultado_pilot_job_final)
 
 # TODO: ainda não funciona bem o Tuning abaixo
 # ==== 
