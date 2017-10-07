@@ -17,7 +17,7 @@ dt_dbScan <- dbScanClustering(db)
 source("util/ShowResult.R")
 result_dbScan <- showResult(dt_dbScan)
 
-write.csv(x = result_dbScan, file="resultado-dbscan.tsv")
+write.csv(x = result_dbScan, file="results/resultado-dbscan.csv")
 
 
 
@@ -34,15 +34,12 @@ dt_kMeans <- kMeansClustering(db)
 source("util/ShowResult.R")
 result_kMeans <- showResult(dt_kMeans)
 
-write.csv(x = result_kMeans, file="resultado-kMeans.tsv")
+write.csv(x = result_kMeans, file="results/resultado-kMeans.csv")
 
 
 
 
-
-
-
-# ====
+# ============================================================
 # Rodando o Optics
 res.dbopt <- dbscan::optics(db,  eps = 0.30, minPts = 5)
 
