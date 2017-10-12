@@ -1,10 +1,13 @@
 # ====
 # Leitura de CSV
-datasetBugId <- read.csv(file="E:/Mestrado/ExperimentsPapers/BugAID/DataSet/dataset_bugid_dinamyc.csv", header=TRUE, sep=",")
+datasetBugId <- read.csv(file="E:/Mestrado/ExperimentsPapers/BugAID/DataSet/dataset_bugid_original.csv", header=TRUE, sep=",")
 
 # ====
 # Retirando os metadados do DataSet
-db <- datasetBugId[10:632]
+# Meta
+db <- datasetBugId[11:ncol(datasetBugId)]
+
+
 
 
 # ============================================================
@@ -12,12 +15,11 @@ db <- datasetBugId[10:632]
 source("model/DbScanClustering.R")
 dt_dbScan <- dbScanClustering(db)
 
-# ====
 # Montando estrutura para comparação dos valores
 source("util/ShowResult.R")
 result_dbScan <- showResult(dt_dbScan)
 
-write.csv(x = result_dbScan, file="results/resultado-dbscan.csv")
+write.csv(x = result_dbScan, file="results/resultado-dbscan-original.csv")
 
 
 
@@ -34,7 +36,7 @@ dt_kMeans <- kMeansClustering(db)
 source("util/ShowResult.R")
 result_kMeans <- showResult(dt_kMeans)
 
-write.csv(x = result_kMeans, file="results/resultado-kMeans.csv")
+write.csv(x = result_kMeans, file="results/resultado-kMeans-original.csv")
 
 
 
@@ -51,7 +53,7 @@ result_optics <- showResult(dt_optics)
 
 #colnames(dt_optics)
 
-write.csv(x = result_optics, file="results/resultado-optics.csv")
+write.csv(x = result_optics, file="results/resultado-optics-original.csv")
 
 
 
