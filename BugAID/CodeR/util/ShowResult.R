@@ -11,8 +11,6 @@ showResult <- function (dt){
   
   colunas <- colnames(dt)
   
-  #colunas[!colunas %in% metadados]
-  
   resultado_pilot <- tidyr::gather(dt, "nome_coluna", "valor_coluna", colunas[!colunas %in% metadados])
   
   # Obtendo apenas as linhas com item da Bag-of-Works
@@ -40,6 +38,12 @@ showResult <- function (dt){
   
   resultado_final$nome_coluna <- as.character(resultado_final$nome_coluna)
   
+  resultado_final$nome_coluna <- gsub("c(", "", resultado_final$nome_coluna, fixed = TRUE)
+  resultado_final$nome_coluna <- gsub("\"", "", resultado_final$nome_coluna, fixed = TRUE)
+  resultado_final$nome_coluna <- gsub(")", "", resultado_final$nome_coluna, fixed = TRUE)
+  resultado_final$nome_coluna <- gsub(",", ";", resultado_final$nome_coluna, fixed = TRUE)
+  
+  resultado_final <- resultado_final[order(-resultado_final$V1),]
   
   return(resultado_final)
 }
