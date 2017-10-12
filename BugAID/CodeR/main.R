@@ -41,7 +41,18 @@ write.csv(x = result_kMeans, file="results/resultado-kMeans.csv")
 
 # ============================================================
 # Rodando o Optics
-res.dbopt <- dbscan::optics(db,  eps = 0.30, minPts = 5)
+source("model/OpticsClustering.R")
+dt_optics <- opticsClustering(db)
+
+# ====
+# Montando estrutura para comparação dos valores
+source("util/ShowResult.R")
+result_optics <- showResult(dt_optics)
+
+#colnames(dt_optics)
+
+write.csv(x = result_optics, file="results/resultado-optics.csv")
+
 
 
 
