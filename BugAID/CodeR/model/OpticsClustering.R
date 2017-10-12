@@ -1,4 +1,4 @@
-opticsClustering <- function(db){
+opticsClustering <- function(db, datasetBugId){
   
   library("dbscan")
   res.op <- dbscan::optics(db,  eps = 0.30, minPts = 5)

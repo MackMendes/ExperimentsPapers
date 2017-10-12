@@ -1,4 +1,4 @@
-kMeansClustering <- function (db){
+kMeansClustering <- function (db, datasetBugId){
   
   # Rodando o KMeans
   res.dbkm <- kmeans(x = db, centers=219)

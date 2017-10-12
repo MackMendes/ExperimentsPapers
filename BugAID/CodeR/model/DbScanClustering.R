@@ -1,4 +1,4 @@
-dbScanClustering <- function(db){
+dbScanClustering <- function(db, datasetBugId){
   
   library("dbscan")
   res.db <- dbscan::dbscan(db,  eps = 0.30, minPts = 5)
