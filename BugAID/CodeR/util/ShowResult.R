@@ -22,19 +22,21 @@ showResult <- function (dt){
   
   resultado_pilot_job_final <- resultado_pilot_job_final %>% 
     group_by(Cluster, nome_coluna) %>% 
-    summarise(V1 = sum(Qtd))
+    summarise(Commits = sum(Qtd))
   
-  resultado_pilot_job_final <- resultado_pilot_job_final[order(-resultado_pilot_job_final$V1),]
-  
-  
-  resultado_aggregate <- aggregate(nome_coluna ~ Cluster, data = resultado_pilot_job_final, c)
+  resultado_pilot_job_final <- resultado_pilot_job_final[order(-resultado_pilot_job_final$Commits),]
   
   
-  resultado_select <- distinct(select(resultado_pilot_job_final, Cluster, V1))
+  r_aggregate <- aggregate(nome_coluna ~ Cluster, data = resultado_pilot_job_final, c)
+  r_aggregate_commitsEClusters <- aggregate(Commits ~ Cluster, data = resultado_pilot_job_final, sum)
   
   
-  resultado_final <- resultado_aggregate %>% inner_join(resultado_select)
+  resultado_final <- r_aggregate[order(-r_aggregate$Cluster),]
+  r_aggregate_commitsEClusters <- r_aggregate_commitsEClusters[order(-r_aggregate_commitsEClusters$Cluster),]
 
+  
+  resultado_final$Commits <- r_aggregate_commitsEClusters$Commits
+  
   
   resultado_final$nome_coluna <- as.character(resultado_final$nome_coluna)
   
@@ -43,7 +45,7 @@ showResult <- function (dt){
   resultado_final$nome_coluna <- gsub(")", "", resultado_final$nome_coluna, fixed = TRUE)
   resultado_final$nome_coluna <- gsub(",", ";", resultado_final$nome_coluna, fixed = TRUE)
   
-  resultado_final <- resultado_final[order(-resultado_final$V1),]
+  resultado_final <- resultado_final[order(-resultado_final$Commits),]
   
   return(resultado_final)
 }
