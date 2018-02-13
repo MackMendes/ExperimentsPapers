@@ -11,7 +11,8 @@ showResult <- function (dt){
   
   colunas <- colnames(dt)
   
-  resultado_pilot <- tidyr::gather(dt, "nome_coluna", "valor_coluna", colunas[!colunas %in% metadados])
+  #resultado_pilot <- tidyr::gather(dt, "nome_coluna", "valor_coluna", colunas[!colunas %in% metadados])
+  resultado_pilot <- tidyr::gather(dt, "nome_coluna", "valor_coluna", c(12:ncol(dt)-1))
   
   # Obtendo apenas as linhas com item da Bag-of-Works
   resultado_pilot_job <- resultado_pilot[resultado_pilot$valor_coluna == 1,]

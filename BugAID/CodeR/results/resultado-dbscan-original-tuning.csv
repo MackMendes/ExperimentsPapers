@@ -1,0 +1,6 @@
+"","Cluster","nome_coluna","Commits"
+"3",3,"RESERVED.CONDITION.INSERTED.global.falsey",18
+"4",5,"RESERVED.CONDITION.INSERTED.global.falsey; RESERVED.STATEMENT.UPDATED.global.var",12
+"2",2,"RESERVED.CONDITION.INSERTED.global.typeof; RESERVED.CONDITION.INSERTED.global.undefined",12
+"5",6,"RESERVED.CONDITION.INSERTED.global.eq",6
+"1",1,"RESERVED.ASSIGNMENT_RHS.INSERTED.global.true",5
