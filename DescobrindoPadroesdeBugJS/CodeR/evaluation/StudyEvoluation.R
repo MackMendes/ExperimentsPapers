@@ -52,6 +52,13 @@ for(i in 1:dim(padroesDefeitos)[1]) {
   }
 }
 
+# ===========
+# Obter o dataset de classificações feita pelo estudo do Hanan (BUgAID)
+# ===========
+
+languageconstruct <- read.csv(file="original dataset/language_construct_database.csv", 
+                                      header=TRUE, sep=";")
+
 
 # ===========
 # Obter o dataset que o Hanan informou ter as informações de {Reparo, Label}
@@ -61,15 +68,7 @@ datasetLabelReparoCommit <- read.csv(file="original dataset/oracle.csv",
                                      header=TRUE, sep=";")
 
 
-
 # ===========
-# Obter o dataset de classificações feita pelo estudo do Hanan (BUgAID)
+# Realizando um Join entre os três datasets 
 # ===========
-
-datasetOriginal <- read.csv(file="original dataset/language_construct_database.csv", 
-                                     header=TRUE, sep=";")
-
-
-
-
 
