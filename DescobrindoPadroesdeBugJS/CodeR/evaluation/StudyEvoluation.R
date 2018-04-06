@@ -79,3 +79,10 @@ library(dplyr)
 datasetOracleCompleted <- (languageconstruct %>% 
                           inner_join(datasetLabelReparoCommit, by = c("IDCommit" = "IDCommit"))) %>%
                           inner_join(padroesDefeitos[1:3], by = c("IDRepair" = "ID"))
+
+# ===========
+# Desenvolver a implementação para calcular os BCTs gerados errados, com base no que estava sendo 
+# esperado no ID Repair 
+# ===========
+
+
