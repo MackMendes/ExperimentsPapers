@@ -1,0 +1,4 @@
+{RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 0, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 1 ; {2272, 2113, 2946, 2806, 2839, 3775}
+{RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 1, Instances = 17, Complexity = 1, BasicChanges = 1, ProjectCount = 2 ; {2754, 2692, 3140, 2949, 391, 2823, 4073, 2154, 3474, 661, 2229, 3414, 4055, 3416, 2681, 2234, 2813}
+{RESERVED:CONDITION:INSERTED:global:undefined:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 2, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 2 ; {1075, 516, 551, 3271, 344, 1742}
+{RESERVED:CONDITION:INSERTED:global:eq:1.0}: ClusterID = 3, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 1 ; {3491, 2620, 2748, 3341, 2735}
