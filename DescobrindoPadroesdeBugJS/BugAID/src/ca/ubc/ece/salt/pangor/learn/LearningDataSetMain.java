@@ -156,7 +156,39 @@ public class LearningDataSetMain {
 		System.out.println(clusterMetrics.getRankedClusterTable());
 		//System.out.println(ClusterMetrics.getLatexTable(keywordClusters));
 
+		// Obtendo os dados dos clusters gerados
+		Collection<Cluster> clustersTotais = clusterMetrics.clusters.values();
+		
+		exportResultDBScanWithInstances(clustersTotais);
 	}
+	
+	/**
+	 * Método para exportar o resultado obtido do DBScan com as devidas instancias
+	 * @param clustersTotais Collection of Cluster with all instances
+	 * @author Charles Mendes
+	 * @throws FileNotFoundException 
+	 */
+	private static void exportResultDBScanWithInstances(Collection<Cluster> clustersTotais) 
+			throws FileNotFoundException {
+		
+		// Instância de String Builder
+		StringBuilder sb = new StringBuilder();
+		
+		for(Cluster ctr : clustersTotais){
+			sb.append(ctr.toString());
+			sb.append(" ; ");
+			sb.append(ctr.instances.toString().replace("=?", ""));
+			sb.append("\n");
+		}
+		
+		// Colocar o DataSet no csv
+		PrintWriter pw = new PrintWriter(new File("dataset_Result_DBScan_With_Instances.csv"));
+		pw.write(sb.toString());
+        pw.close();
+        System.out.println("Done Export Result DBScan!");
+		
+	}
+	
 
 	/**
 	 * Prints the help file for main.
