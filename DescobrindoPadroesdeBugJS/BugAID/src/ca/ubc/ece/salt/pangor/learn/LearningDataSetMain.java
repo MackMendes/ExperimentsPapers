@@ -127,7 +127,7 @@ public class LearningDataSetMain {
 			}
 			
 			// Colocar o DataSet no csv
-			PrintWriter pw = new PrintWriter(new File("dataset_bugid_dinamyc_original_with_header.csv"));
+			PrintWriter pw = new PrintWriter(new File("dataset_bugid_with_header.csv"));
 			pw.write(sb.toString());
 	        pw.close();
 	        System.out.println("done!");
@@ -174,15 +174,47 @@ public class LearningDataSetMain {
 		// Instância de String Builder
 		StringBuilder sb = new StringBuilder();
 		
-		for(Cluster ctr : clustersTotais){
-			sb.append(ctr.toString());
-			sb.append(" ; ");
-			sb.append(ctr.instances.toString().replace("=?", ""));
+		sb.append("ClusterID; BCTs; BasicChanges; Complexity; ProjectCount; Instances; ContainsInstances");
+		
+		Boolean isFirst = true;
+		
+		for(Cluster ctr : clustersTotais) {
+			isFirst = true;
 			sb.append("\n");
+			
+			//ClusterID
+			sb.append(ctr.cluster);
+			sb.append(" ; ");
+			//BCTs
+			
+			for (Map.Entry<String, Integer> entry : ctr.keywords.entrySet()) {
+				if(!isFirst)
+					sb.append(" , ");
+				
+				sb.append((String)entry.getKey());
+				isFirst = false;
+			}
+			
+			//sb.append(ctr.keywords.toString().replace("{", "").replace("}", ""));
+			sb.append(" ; ");
+			//BasicChanges
+			sb.append(ctr.keywords.size());
+			sb.append(" ; ");
+			//Complexity
+			sb.append(ctr.getAverageModifiedStatements());
+			sb.append(" ; ");
+			//ProjectCount
+			sb.append(ctr.projects.size());
+			sb.append(" ; ");			
+			//Instances
+			sb.append(ctr.instances.size());
+			sb.append(" ; ");
+			//ContainsInstances
+			sb.append(ctr.instances.toString().replace("=?", "").replace("{", "").replace("}", ""));
 		}
 		
 		// Colocar o DataSet no csv
-		PrintWriter pw = new PrintWriter(new File("dataset_Result_DBScan_With_Instances.csv"));
+		PrintWriter pw = new PrintWriter(new File("dataset_result_DBScan_with_instances.csv"));
 		pw.write(sb.toString());
         pw.close();
         System.out.println("Done Export Result DBScan!");
