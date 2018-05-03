@@ -266,7 +266,8 @@ matrixConfusionFinal[1,"Recall"] <- matrixMathsSum["VerdadeiroPositivo"] / (matr
 matrixConfusionFinal[1,"NPV"] <- matrixMathsSum["VerdadeiroNegativo"] / (matrixMathsSum["VerdadeiroNegativo"] + matrixMathsSum["FalsoNegativo"])
 
 # Accuracy
-matrixConfusionFinal[1,"Accuracy"] <- (matrixMathsSum["VerdadeiroPositivo"] + matrixMathsSum["VerdadeiroNegativo"]) / ncol(matrixconfusion)
+matrixConfusionFinal[1,"Accuracy"] <- (matrixMathsSum["VerdadeiroPositivo"] + matrixMathsSum["VerdadeiroNegativo"]) / nrow(matrixconfusion)
 
 # F-measure
 matrixConfusionFinal[1,"Fmeasure"] <- 2 * ((matrixConfusionFinal[1,"Recall"] * matrixConfusionFinal[1, "Precision"]) / (matrixConfusionFinal[1,"Recall"] + matrixConfusionFinal[1, "Precision"]))
+
