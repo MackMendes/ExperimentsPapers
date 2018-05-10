@@ -47,7 +47,15 @@ public class JSAPIUtilities
   
   private static boolean isJavaScriptReservedLiteral(AstNode token)
   {
-    List<String> JAVASCRIPT_RESERVED_WORDS = Arrays.asList(new String[] { "abstract", "arguments", "boolean", "break", "byte", "case", "catch", "char", "class", "const", "continue", "debugger", "default", "delete", "do", "double", "else", "enum", "eval", "export", "extends", "false", "final", "finally", "float", "for", "function", "goto", "if", "implements", "import", "in", "instanceof", "int", "interface", "let", "long", "native", "new", "null", "package", "private", "protected", "public", "return", "short", "static", "super", "switch", "synchronized", "this", "undefined", "throw", "throws", "transient", "true", "try", "typeof", "var", "void", "volatile", "while", "with", "yield" });
+    List<String> JAVASCRIPT_RESERVED_WORDS = Arrays.asList(new String[] { 
+    		"abstract", "await", "boolean", "break", "byte", "case", "catch", "char", "class", "const", 
+    		"continue", "debugger", "default", "delete", "do", "double", "else", "enum", "eval ", "export", 
+    		"extends", "false", "final", "finally", "float", "for", "function", "goto", "if", "implements", 
+    		"import", "in", "instanceof", "int", "interface", "let", "long", "module", "native", "new", 
+    		"Number", "null", "package", "private", "protected", "public", "RegExp", "return", "short", 
+    		"static", "String", "super", "switch", "synchronized", "this", "throw", "throws", "transient", 
+    		"true", "try", "typeof", "undefined ", "var", "void", "volatile", "while", "with", "yield" });
+    
     if ((token instanceof Name))
     {
       Name name = (Name)token;
@@ -67,7 +75,9 @@ public class JSAPIUtilities
     if (SpecialTypeAnalysisUtilities.isFalsey(token)) {
       return KeywordDefinition.KeywordType.RESERVED;
     }
-    if (((token instanceof ReturnStatement)) || ((token instanceof BreakStatement)) || ((token instanceof ContinueStatement)) || ((token instanceof VariableDeclaration)) || ((token instanceof NewExpression)) || ((token instanceof TryStatement))) {
+    if (((token instanceof ReturnStatement)) || ((token instanceof BreakStatement)) || 
+    		((token instanceof ContinueStatement)) || ((token instanceof VariableDeclaration)) || 
+    		((token instanceof NewExpression)) || ((token instanceof TryStatement))) {
       return KeywordDefinition.KeywordType.RESERVED;
     }
     if ((token instanceof StringLiteral))
@@ -185,7 +195,9 @@ public class JSAPIUtilities
     if (SpecialTypeAnalysisUtilities.isFalsey(token)) {
       return KeywordUse.KeywordContext.CONDITION;
     }
-    if (((token instanceof ReturnStatement)) || ((token instanceof BreakStatement)) || ((token instanceof ContinueStatement)) || ((token instanceof VariableDeclaration)) || ((token instanceof NewExpression)) || ((token instanceof TryStatement))) {
+    if (((token instanceof ReturnStatement)) || ((token instanceof BreakStatement)) || 
+    		((token instanceof ContinueStatement)) || ((token instanceof VariableDeclaration)) || 
+    		((token instanceof NewExpression)) || ((token instanceof TryStatement))) {
       return KeywordUse.KeywordContext.STATEMENT;
     }
     if ((token instanceof InfixExpression))
