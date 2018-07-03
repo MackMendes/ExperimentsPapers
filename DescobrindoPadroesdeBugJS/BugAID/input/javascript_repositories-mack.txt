@@ -1,0 +1,4 @@
+https://github.com/MackMendes/MVCAspNet.DataTables.git
+
+https://github.com/MackMendes/JavaScriptBegin.LGroup.git
+https://github.com/MackMendes/LGroup.JqueryBegin.git
